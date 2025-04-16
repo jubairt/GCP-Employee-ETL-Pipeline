@@ -20,7 +20,7 @@ This project showcases an end-to-end **ETL pipeline** that automates the generat
 
 ## 🧱 Architecture
 
-![Architecture](Dag_pipeline.png)
+![Architecture](Architecture.png)
 
 ---
 
