@@ -24,6 +24,14 @@ This project showcases an end-to-end **ETL pipeline** that automates the generat
 
 ---
 
+## 🌀 Airflow DAG Pipeline
+
+This DAG, created in Cloud Composer (Airflow on GCP), orchestrates the entire flow from data generation to GCS upload and Data Fusion triggering.
+
+![DAG Pipeline](Dag_pipeline.png)
+
+---
+
 ## 🔄 Pipeline Steps
 
 ### 1. **Generate & Upload Employee Data**
@@ -49,6 +57,8 @@ This project showcases an end-to-end **ETL pipeline** that automates the generat
     - Encodes the `password` column using **MD5 hashing**.
   - **Sink**: Writes transformed data to BigQuery (`employee_dataset.employees`)
 - Configuration: Created visually using Data Fusion’s UI
+
+![Data Fusion Pipeline](Data_fusion_pipeline.png)
 
 ### 4. **Visualization using Looker Studio**
 - BigQuery table is connected to Looker Studio
