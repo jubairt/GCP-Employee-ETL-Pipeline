@@ -86,4 +86,4 @@ This DAG, created in Cloud Composer (Airflow on GCP), orchestrates the entire fl
 
 This project is a complete blueprint of how enterprise-scale data can be programmatically generated, processed securely, and visualized interactively using **modern GCP services**. With **Cloud Composer** managing orchestration and **Cloud Data Fusion** simplifying transformations, the ETL process becomes maintainable, scalable, and auditable.
 
-Whether you're exploring GCP, automating ETL, or just love building pipelines — this project demonstrates a real-world data engineering flow using best practices. 🚀📂📊
+Whether you're exploring GCP, automating ETL, or just love building pipelines — this project demonstrates a real-world data engineering flow using best practices.
