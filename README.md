@@ -46,7 +46,7 @@ This project showcases an end-to-end **ETL pipeline** that automates the generat
   - **Wrangler**:
     - Creates a new column `full_name` = `first_name + last_name`
     - Masks the `salary` column
-    - Encodes the `password` column (e.g., using base64)
+    - Encodes the `password` column using **MD5 hashing**.
   - **Sink**: Writes transformed data to BigQuery (`employee_dataset.employees`)
 - Configuration: Created visually using Data Fusion’s UI
 
