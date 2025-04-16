@@ -52,11 +52,7 @@ This project showcases an end-to-end **ETL pipeline** that automates the generat
 
 ### 4. **Visualization using Looker Studio**
 - BigQuery table is connected to Looker Studio
-- Dashboard includes:
-  - Count of employees by salary range
-  - Filter by employee name, domain, or ID
-  - Clean UI for insights into the generated dataset
-  
+
 ![Dashboard](Looker_studio.png)
 
 ---
